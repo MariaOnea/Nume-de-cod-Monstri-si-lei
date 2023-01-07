@@ -22,8 +22,6 @@ public:
     string role;
     int monster_class;
     string diet;
-
-
 };
 
 
@@ -165,9 +163,6 @@ public:
                 else if(h.monster_class == 2) s++;
                     else if(h.monster_class == 3) c++;
                         else if(h.monster_class == 4) o++;
-
-
-
 
     }
 
@@ -545,11 +540,7 @@ int main() {
     // obiect de tip MenuGenerator
     MenuGenerator mg;
 
-
-
-
-
-        return 0;
+    return 0;
 }
 
 
