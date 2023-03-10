@@ -43,7 +43,7 @@ At the end of the day, people have to go to the hotel to sleep. The hotel has ro
 
 Water is also required for filming. Every day of filming is consumed on average:
 
--1L of water per person.
+- 1L of water per person.
 
 - 0.5 L of coffee per person. 
 
