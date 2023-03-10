@@ -1,77 +1,83 @@
 # Nume-de-cod-Monstri-si-lei
-Proiect de colocviu, POO, Onea Maria-Teodora, 322 AC
-Având în vedere succesul serialului Wednesday, producătorii serialului au decis să filmeze și următorul sezon în România. Aceștia au nevoie de un program care să îi ajute să își organizeze proiectul, filmările și bugetele.
+This is one of the projects I did during my undergraduate years. Its purpose is to cover all of the main concepts of OOP, while making a program that can help the producers of "Wednesday" see how expensive filming the second season in Romania would be. This application has helped me deepen my OOP knowledge, since the tasks required an analytical mindset and a good understanding of the main concepts of OOP. Below you can see the tasks and their constraints:
 
-Cast-ul serialului vrea să se întoarcă în România la începutul anului 2023 pentru a începe filmările la castelul Cantacuzino. 
+Given the success of Wednesday, the producers of the series decided to film the next season in Romania. They need a program to help them organize their project, filming and budgets. 
 
-Toate aceste persoane se vor regăsi într-un fișier de tip CSV care va fi încărcat în aplicație. Cast-ul poate fi găsit online (exemplu: https://www.imdb.com/title/tt13443470/fullcredits/?ref_=tt_cl_sm )
+All these people will be found in a CSV file that will be uploaded to the application. The cast can be found online (example: https://www.imdb.com/title/tt13443470/fullcredits/?ref_=tt_cl_sm )
+The file must include the name of the person and the function he/she performs (actor, sound artist, etc.). The director also decided that he needed 132 more extras to help with the filming. They will be randomly created inside the application.
 
-Fișierul trebuie să includă numele persoanei și funcția pe care o îndeplinește (actor, sunetist etc).
+All the actors and all the other people involved in the film will leave the airport using buses. Buses have a capacity of 50 people. Calculate how many buses are needed to transport people from the airport to the castle. The cost of renting a bus is 5680 lei.
 
-De asemenea, regizorul a decis că mai are nevoie de de 132 de figuranți care să ajute la filmări.
+Also, the actors and figurants are randomly assigned to one of the 5 monster classes, each with a specific cost for makeup per day of shooting:
 
-Aceștia vor fi creați random în interiorul aplicației.
+- Vampires - 230 lei.  
 
-Astfel, toți actorii și toate celelalte persoane implicate în filmare vor pleca de la aeroport folosind autocare. Autocarele au o capacitate de 50 de persoane. 
+- Werewolves - 555 lei.
 
-Calculați câte autocare sunt necesare pentru a transporta persoanele de la aeroport la castel. 
+- Sirens - 345 lei. 
 
-Costul pentru închirierea unui autocar este de 5680 de lei.
+- Clairvoyants - 157 lei.
 
-De asemenea, actorii și figuranții sunt asignati într-un mod aleator uneia dintre cele 5 clase de monștrii, fiecare având un cost specific pentru machiaj per zi de filmare:
--	Vampiri - 230 lei
--	Vârcolaci - 555 lei
--	Sirene - 345 lei
--	Clarvăzători - 157 lei
--	Om - 55 de lei
+- Humans - 55 lei.
 
-La filmări, aceste persoane trebuie să li se asigure mâncarea la pauza de prânz. Fiecare persoana este ori:
--	Aptă să mănânce orice
--	Vegetariană
--	Flexitariană (mănâncă pește)
+During filming, these people must be provided with food at lunch break. Each person is either: 
 
-Persoanele sunt asignate un tip de dietă în mod aleatoriu.
+-Able to eat anything. 
 
-Aplicația trebuie să creeze un meniu pe 3 zile care să includă:
--	supă/ciorbă
--	Fel principal 
--	desert 
-Meniul pentru cei care mănâncă orice costă 40 de lei pe zi per persoană, cel pentru vegetarieni 33 de lei pe zi per persoană iar cel pentru flexitarieni 46 de lei pe zi per persoană. 
+- Vegetarian.
 
-La finalul zilei persoanele trebuie să meargă la hotel să doarmă. Hotelul conține camere de 2 și 3 persoane. 
+- Flexitarian (eating fish). 
+ 
+People are assigned a type of diet at random.
 
-Camerele de 2 persoane sunt rezervate cast-ului inițial. Cost per cameră pe noapte = 350 de lei
-Camerele de 3 persoane sunt rezervate figuranților. Cost per cameră pe noapte = 420 de lei
+The application must create a 3-day menu that includes:
+- Soup. 
 
-De asemenea, la filmări este necesară și apa. Pe fiecare zi de filmare se consumă în medie
--	1L de apă per persoană
--	0.5 L de cafea per persoană
--	0.8 L de suc per persoană
+- Main course. 
 
-Costul este următorul: 2L apă = 6 Lei, 1L de cafea = 30 de Lei, 2L de suc = 8 lei.
+- Dessert.
 
-Închirierea castelului Cantacuzino este de 10000 de lei pe zi. Proprietarul e dispus să facă o reducere de 2% pentru fiecare 10 zile de filmare.
+The menu for those who eat anything costs 40 lei per person per day, the one for vegetarians 33 lei per person per day and the one for flexitarians 46 lei per person per day.
 
-La finalul filmărilor, toate persoanele se vor întoarce cu aceleași autocare la aeroport.
+At the end of the day, people have to go to the hotel to sleep. The hotel has rooms of 2 and 3 people.. Rooms for 2 people are reserved for the initial stay. Cost per room per night = 350 lei. Rooms for 3 people are reserved for figurants. Cost per room per night = 420 lei
 
-Regizorul și producătorii încă nu s-au hotărât dacă să filmeze în România. Iar dacă da, câte zile ar trebui să dureze filmările. Acesta o să ia o decizie în funcție de costuri. Așa că își dorește să afle cât l-ar costa dacă ar sta în România:
--	30 de zile
--	45 de zile
--	60 de zile
--	100 de zile
+Water is also required for filming. Every day of filming is consumed on average:
 
-Costul trebuie exprimat în dolari $.
+-1L of water per person.
 
-Acesta vrea să primească toate informațiile într-un fișier de tip CSV. 
+- 0.5 L of coffee per person. 
 
-Aplicația trebuie să genereze fișiere de tip CSV în care să aibă următoarele informații:
--	Actorii, castul extins și figuranții (1 CSV)
--	Costul pentru  fiecare perioadă (1 CSV)
--	Aici costurile trebuie grupate astfel:
--	Transport
--	Cazare
--	Machiaj
--	Mâncare și apă
--	Închiriere spațiu
--	Meniul de mâncare (1CSV)
-Având în vedere că fișierele trebuie citite atât în engleză cât și în romănă, aplicația trebuie să poată exporta aceste fișiere atât în limba română cât și în limba engleză automat.
+- 0.8 L of juice per person
+
+The cost is as follows: 2L water = 6 Lei, 1L coffee = 30 Lei, 2L juice = 8 lei. 
+
+The rental of Cantacuzino Castle is 10000 lei per day. The owner is willing to make a 2% discount for every 10 days of filming.
+
+At the end of the filming, all the people will return with the same buses to the airport.
+
+The director and the producers have not yet decided whether to film in Romania. And if so, how many days should the filming take? They will make a decision based on costs. So they want to know how much it would cost if they stayed in Romania:
+-	30 days
+-	45 days
+-	60 days
+-	100 days
+
+The cost must be expressed in dollars. The director wants to receive all the information in a CSV file.
+
+The application must generate CSV files in which it has the following information:. 
+
+- Actors, extended cast and figurants (1 CSV). 
+
+- Cost per period (1 CSV). Here the costs must be grouped as follows: 
+
+- Transport
+
+-	Accommodation. 
+
+- Makeup. 
+ 
+- Food and water. 
+
+- Renting space. 
+
+- Food menu (1CSV)
+
