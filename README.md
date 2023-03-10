@@ -22,7 +22,7 @@ Also, the actors and figurants are randomly assigned to one of the 5 monster cla
 
 During filming, these people must be provided with food at lunch break. Each person is either: 
 
--Able to eat anything. 
+- Able to eat anything. 
 
 - Vegetarian.
 
