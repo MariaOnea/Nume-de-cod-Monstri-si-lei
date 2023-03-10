@@ -41,7 +41,7 @@ The menu for those who eat anything costs 40 lei per person per day, the one for
 
 At the end of the day, people have to go to the hotel to sleep. The hotel has rooms of 2 and 3 people.. Rooms for 2 people are reserved for the initial stay. Cost per room per night = 350 lei. Rooms for 3 people are reserved for figurants. Cost per room per night = 420 lei
 
-Water is also required for filming. Every day of filming is consumed on average:
+Water is also required for filming. Every day of filming consumes on average:
 
 - 1L of water per person.
 
